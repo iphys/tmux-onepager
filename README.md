@@ -1,7 +1,7 @@
 # tmux-onepager
 
-One-pager document about tmux terminal multiplexer
+A one-pager document about [tmux](https://github.com/tmux/tmux) terminal multiplexer
 
 - distributed under MIT license
-- Google Slides
-- OpenDocument Presentation (.odp) file
+- edited in Google Slides as OpenDocument Presentation (.odp) file
+- PDF is generated from ODP
