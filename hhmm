@@ -1,0 +1,25 @@
+#!/bin/sh
+#
+# This script `hhmm` takes the location and returns the hour and the minute in
+# hh:mm format. For example, run `hhmm uk` to get the time and the minute in UK.
+#
+# See `if-elif-fi` below for the supported locations. Strings assigned to tzstr
+# can be found with `tzselect` (1) command.
+#
+# This script was confirmed to run on Ubuntu 19.10.
+
+if [ "$1" = "use" ]; then
+  # US east
+  tzstr="America/New_York"
+elif [ "$1" = "uk" ]; then
+  # UK
+  tzstr="Europe/London"
+elif [ "$1" = "in" ]; then
+  # India
+  tzstr="Asia/Kolkata"
+elif [ "$1" = "jp" ]; then
+  # Japan
+  tzstr="Asia/Tokyo"
+fi
+
+TZ=$tzstr date "+%H:%M"
