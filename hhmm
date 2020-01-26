@@ -22,4 +22,5 @@ elif [ "$1" = "jp" ]; then
   tzstr="Asia/Tokyo"
 fi
 
-TZ=$tzstr date "+%H:%M"
+# If $1 was not provided, tzstr is empty. Fallback is defined for that case. 
+TZ=${tzstr:="Europe/London"} date "+%H:%M"
