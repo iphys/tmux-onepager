@@ -2,7 +2,7 @@
 
 This is a one-pager ODP/PDF document about [tmux](https://github.com/tmux/tmux)
 terminal multiplexer. It has basic information about tmux, enough for basic uses.
-It is not designed for heavy use.
+It is not intended to cover everything about tmux.
 
 Files are distributed under the MIT license.
 
