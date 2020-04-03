@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 # This script `hhmm` takes the location and returns the hour and the minute in
-# hh:mm format. For example, run `hhmm uk` to get the time and the minute in UK.
+# hhmm format. For example, run `hhmm uk` to get the time and the minute in UK.
 #
 # See `if-elif-fi` below for the supported locations. Strings assigned to tzstr
 # can be found with `tzselect` (1) command.
@@ -23,4 +23,4 @@ elif [ "$1" = "jp" ]; then
 fi
 
 # If $1 was not provided, tzstr is empty. Fallback is defined for that case. 
-TZ=${tzstr:="Europe/London"} date "+%H:%M"
+TZ=${tzstr:="Europe/London"} date "+%H%M"
