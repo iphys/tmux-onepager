@@ -1,8 +1,8 @@
 # tmux-onepager
 
 This is a one-pager ODP/PDF document about [tmux](https://github.com/tmux/tmux)
-terminal multiplexer. It has basic information about tmux, sufficiently for
-very basic uses. It is not intended to cover everything about tmux.
+terminal multiplexer. This document has basic information about tmux,
+sufficient for very basic uses. This is not intended to cover everything about tmux.
 
 Files are distributed under the MIT license.
 
